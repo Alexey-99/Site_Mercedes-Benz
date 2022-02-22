@@ -22,6 +22,16 @@ a {
   color: inherit;
 }
 
+button{
+  background-color: transparent;
+  border:none;
+  padding: 0;
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+}
+
 .contener {
   max-width: 1220px;
   margin: 0 auto;
@@ -38,6 +48,26 @@ a {
   height: 100px;
 }
 
-li {
-  list-style: none;
+.list{
+  display: flex;
 }
+
+.list_iten + .list_iten{
+  margin-left: 30px;
+}
+
+.list_link{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background .3s;
+}
+
+.list_link:hover{
+  background-color: #C1A1D2;
+}
+
+
