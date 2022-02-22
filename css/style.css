@@ -8,6 +8,14 @@ html {
   box-sizing: inherit;
 }
 
+@font-face {
+  font-family: 'Corporate-A-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Corporate-A-Bold.woff2') format('woff2'),
+    url('../fonts/Corporate-A-Bold.woff') format('woff');
+}
+
 body {
   font-family: 'Roboto Condensed', sans-serif;
   background: #070a1b;
@@ -22,13 +30,13 @@ a {
   color: inherit;
 }
 
-button{
+button {
   background-color: transparent;
-  border:none;
+  border: none;
   padding: 0;
   cursor: pointer;
 }
-ul{
+ul {
   list-style: none;
 }
 
@@ -48,29 +56,29 @@ ul{
   height: 100px;
 }
 
-.list{
+.list {
   display: flex;
 }
 
-.list_iten + .list_iten{
+.list_iten + .list_iten {
   margin-left: 30px;
 }
 
-.list_link{
+.list_link {
   width: 40px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  transition: background .3s;
+  transition: background 0.3s;
 }
 
-.list_link:hover{
-  background-color: #C1A1D2;
+.list_link:hover {
+  background-color: #c1a1d2;
 }
 
-.header_content{
+.header_content {
   background-image: url(../images/header.png);
   min-height: calc(100vh - 100px);
   background-repeat: no-repeat;
@@ -82,6 +90,17 @@ ul{
   justify-content: flex-end;
 }
 
+.title {
+  font-family: 'Corporate-A-Bold';
+  margin-bottom: 5px;
+  font-size: 72px;
+  line-height: 120%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title_descr {
+  font-size: 24;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
-
+}
