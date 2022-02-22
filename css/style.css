@@ -116,3 +116,11 @@ ul {
   margin-bottom: 50px;
   margin-top: 0;
 }
+
+.footer_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
