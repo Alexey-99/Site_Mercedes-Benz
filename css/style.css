@@ -221,14 +221,40 @@ ul {
   color: #53a1cb;
 }
 
-.video_btn path{
-  transition: all .3s;
+.video_btn path {
+  transition: all 0.3s;
 }
 
-.video_btn:hover path{
+.video_btn:hover path {
   fill: #53a1cb;
 }
 
-.design_interior{
+.design_interior {
   display: grid;
+  grid-template-columns: 255px 255px auto 330px;
+  grid-template-rows: auto auto;
+  gap: 14px 44px;
 }
+
+ .design_sell_one {
+  grid-row: 1/3;
+}
+
+.design_sell_two {
+  grid-row-end: -1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.design_sell_three {
+  grid-column-end: -1;
+  grid-row-end: -1;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 15px;
+} 
+
+.design_sell_text{
+  margin-bottom: 15px;
+}
+
