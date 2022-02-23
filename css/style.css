@@ -57,6 +57,10 @@ ul {
   height: 100px;
 }
 
+.header_logo{
+  margin-left: 157px;
+}
+
 .list {
   display: flex;
 }
@@ -146,4 +150,40 @@ ul {
   font-size: 24px;
   margin-bottom: 25px;
   line-height: 120%;
+}
+
+.premier {
+  margin-bottom: 150px;
+}
+
+.premier_inner {
+  display: flex;
+  gap: 60px;
+}
+
+.premier_text {
+  margin-bottom: 21px;
+}
+
+.premier_img {
+  margin-bottom: 20px;
+}
+
+.premier_btn {
+  font-family: 'Corporate-A-Bold';
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  line-height: 120%;
+  color: #f402a2;
+  text-align: center;
+  padding: 14px;
+  border: 1px solid #F402A2;
+  transition: all .3s;
+}
+
+.premier_btn:hover{
+  border-color: #53A1CB;
+  color: #53A1CB;
 }
