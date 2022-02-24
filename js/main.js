@@ -1,6 +1,6 @@
 $(function () {
   $('.design_slider').slick({
-    dots: true,
+    dots: false,
     slidesToShow: 4,
     variableWidth: true,
     prevArrow:

@@ -48,7 +48,7 @@ ul {
 
 .header {
   margin-bottom: 150px;
-  background: #070A1B;
+  background: #070a1b;
 }
 
 .header_top {
@@ -123,8 +123,8 @@ ul {
   margin-top: 0;
 }
 
-.footer{
-  background: #070A1B;
+.footer {
+  background: #070a1b;
 }
 
 .footer_inner {
@@ -264,11 +264,30 @@ ul {
   margin-bottom: 15px;
 }
 
-.design_slider_item{
- margin: 0 30px;
+.design_slider_item {
+  margin: 0 30px;
 }
 
-.slick-track{
-  margin-left: -30px;
+.slick-track {
+  margin-left: -66px;
 }
 
+.design_slider {
+  padding-bottom: 25px;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+  bottom: 0;
+  left: 50%;
+}
+
+.arrow-left{
+  transform: translateX(-80px);
+}
+
+.arrow_right{
+  transform: translateX(30px);
+}
