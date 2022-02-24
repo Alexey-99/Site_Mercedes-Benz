@@ -312,4 +312,5 @@ ul {
   max-width: 100%;
   display: block;
   object-fit: covers;
+  margin: 0 auto;
 }
