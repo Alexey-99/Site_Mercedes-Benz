@@ -30,6 +30,10 @@ a {
   color: inherit;
 }
 
+img{
+  max-width: 100%;
+}
+
 button {
   background-color: transparent;
   border: none;
@@ -335,6 +339,9 @@ ul {
   }
   .title_descr {
     font-size: 18px;
+  }
+  .concept_text{
+  font-size: 16px;
   }
 }
 
