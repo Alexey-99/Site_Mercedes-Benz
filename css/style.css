@@ -291,3 +291,20 @@ ul {
 .arrow_right{
   transform: translateX(30px);
 }
+
+.design_box{
+  max-width: 590px;
+  margin: 150px auto;
+  padding: 0 10px;
+  display: flex;
+  gap: 60px;
+}
+
+.design_box_column{
+  width: 255px;
+}
+
+.desing_box_text{
+  margin-bottom: 15px;
+}
+
