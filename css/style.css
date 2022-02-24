@@ -323,15 +323,21 @@ ul {
   margin: 0 auto;
 }
 
+@media (max-width: 1366px) {
+  .footer_inner {
+    height: 150px;
+  }
+}
+
 @media (max-width: 1020px) {
   .design_interior {
     display: block;
   }
-  .design_interior_img{
+  .design_interior_img {
     width: 100%;
     margin-bottom: 25px;
   }
-  .design_sell_three .design_interior_img{
+  .design_sell_three .design_interior_img {
     max-width: 100%;
     width: auto;
   }
@@ -372,12 +378,25 @@ ul {
     width: 100%;
     margin-top: 25px;
   }
-  .design_box{
+  .design_box {
     margin: 75px auto;
     display: block;
   }
-  .design_box_column{
+  .design_box_column {
     width: 100%;
+  }
+}
+
+@media (max-width: 620px) {
+  .footer_inner {
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .footer .list {
+    width: 100%;
+    margin-top: 25px;
+    justify-content: center;
+    margin-top: 10px;
   }
 }
 
@@ -386,6 +405,10 @@ ul {
     flex-wrap: wrap;
     align-content: center;
   }
+  .footer_inner{
+    flex-direction: column;
+    padding-top: 10px;
+  }
   .list {
     justify-content: center;
     padding-top: 10px;
@@ -393,5 +416,14 @@ ul {
   }
   .title {
     font-size: 34px;
+  }
+}
+
+@media (max-width: 470px) {
+  .design_slider_item {
+    margin: 0;
+  }
+  .slick-track {
+    margin-left: 0;
   }
 }
