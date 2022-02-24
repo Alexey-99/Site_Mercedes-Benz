@@ -308,3 +308,8 @@ ul {
   margin-bottom: 15px;
 }
 
+.design_img{
+  max-width: 100%;
+  display: block;
+  object-fit: covers;
+}
