@@ -264,3 +264,11 @@ ul {
   margin-bottom: 15px;
 }
 
+.design_slider_item{
+ margin: 0 30px;
+}
+
+.slick-track{
+  margin-left: -60px;
+}
+
