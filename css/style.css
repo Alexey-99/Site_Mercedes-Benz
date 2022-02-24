@@ -30,7 +30,7 @@ a {
   color: inherit;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
@@ -264,6 +264,10 @@ ul {
   margin-bottom: 15px;
 }
 
+.design_interior_img {
+  grid-column: 2/-1;
+}
+
 .design_sell_text {
   margin-bottom: 15px;
 }
@@ -319,54 +323,75 @@ ul {
   margin: 0 auto;
 }
 
+@media (max-width: 1020px) {
+  .design_interior {
+    display: block;
+  }
+  .design_interior_img{
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .design_sell_three .design_interior_img{
+    max-width: 100%;
+    width: auto;
+  }
+}
+
 @media (max-width: 768px) {
   .header_logo {
     margin-left: 0;
   }
-  .logo_img{
+  .logo_img {
     width: 180px;
     margin-left: 15px;
   }
-  .list_iten + .list_iten{
+  .list_iten + .list_iten {
     margin-left: 15px;
   }
-  .list_link{
+  .list_link {
     width: 35px;
     height: 35px;
   }
-  .title{
+  .title {
     font-size: 55px;
   }
   .title_descr {
     font-size: 18px;
   }
-  .concept_text{
-  font-size: 16px;
+  .concept_text {
+    font-size: 16px;
   }
-  .premier_inner{
+  .premier_inner {
     display: block;
   }
-  .premier, .video{
+  .premier,
+  .video {
     margin-bottom: 75px;
   }
-  .premier_img{
+  .premier_img {
     width: 100%;
     margin-top: 25px;
   }
-  
+  .design_box{
+    margin: 75px auto;
+    display: block;
+  }
+  .design_box_column{
+    width: 100%;
+  }
 }
 
-@media(max-width:520px){
-  .header_top{
+@media (max-width: 520px) {
+  .header_top {
     flex-wrap: wrap;
     align-content: center;
   }
-  .list{
+  .list {
     justify-content: center;
     padding-top: 10px;
     width: 100%;
   }
-  .title{
+  .title {
     font-size: 34px;
   }
 }
